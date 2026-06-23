@@ -14,4 +14,3 @@ A rotationally symmetric part created by revolving a 2D profile sketch around an
 ## Views
 See the `images/` folder for orthographic and isometric views.
 
-**Source file:** `page59_bysalp.fcstd`
