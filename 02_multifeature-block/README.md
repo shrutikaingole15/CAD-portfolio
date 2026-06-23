@@ -16,4 +16,4 @@ A complex solid that chains multiple additive and subtractive Part Design operat
 ## Views
 See the `images/` folder for orthographic and isometric views.
 
-**Source file:** `Page_106_Exercise3D-47_byHannu.fcstd`
+
