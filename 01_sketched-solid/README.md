@@ -15,4 +15,3 @@ A solid part built from a fully constrained 2D sketch. The workflow uses Pad →
 ## Views
 See the `images/` folder for orthographic and isometric views.
 
-**Source file:** `Exercise 2D -10_byHannu.fcstd`
