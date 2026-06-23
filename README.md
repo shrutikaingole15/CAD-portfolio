@@ -81,3 +81,39 @@ For each project, include:
 - A short writeup (2–3 sentences) covering the **design requirements** and the **key decisions** made
 
 Hiring managers value seeing the reasoning behind a design as much as the model itself.
+
+---
+
+## Completed Projects
+
+> All models below were built in **FreeCAD 1.1** using the Part Design and Sketcher workbenches. Each folder contains the `.fcstd` source file and orthographic view images.
+
+---
+
+### Project A — Sketched Solid with Groove & Pocket
+**Folder:** [`01_sketched-solid/`](./01_sketched-solid/)
+
+A solid part built from a 2D sketch using the Part Design workbench. The workflow begins with a constrained sketch that is extruded via **Pad**, then material is removed using a **Groove** (revolve-cut) and a **Pocket** operation. A **Datum Line** is used as a construction reference for the groove axis, demonstrating clean design intent rather than relying on geometry edges.
+
+**Tools used:** Sketcher, Pad, Groove, Pocket, Datum Line
+**File:** `Exercise 2D -10_byHannu.fcstd`
+
+---
+
+### Project B — Multi-Feature Block with Fillets
+**Folder:** [`02_multifeature-block/`](./02_multifeature-block/)
+
+A more complex solid combining multiple additive and subtractive operations. The base is built up with sequential **Pad** operations, then shaped further using a **SubtractiveBox** and a **SubtractiveCylinder** to cut out material. **Fillet** edges are applied for realism and manufacturability. Additional **Pocket** features refine the final form. This part demonstrates the ability to manage a multi-step model tree without losing parametric control.
+
+**Tools used:** Sketcher, Pad (×3), SubtractiveBox, SubtractiveCylinder, Fillet, Pocket (×2)
+**File:** `Page_106_Exercise3D-47_byHannu.fcstd`
+
+---
+
+### Project C — Revolved / Turned Part
+**Folder:** [`03_revolved-part/`](./03_revolved-part/)
+
+A rotationally symmetric part modelled using the **Revolution** tool — the FreeCAD equivalent of a lathe operation. A profile sketch is drawn on a plane and revolved 360° around an axis to produce the solid. A **Pocket** is then cut into the face to add an internal feature. This type of part is common in mechanical assemblies (shafts, caps, bushings) and this exercise focuses on clean sketch profiles and axis selection.
+
+**Tools used:** Sketcher, Revolution, Pocket
+**File:** `page59_bysalp.fcstd`
